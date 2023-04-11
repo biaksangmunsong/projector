@@ -11,6 +11,7 @@ const getTempLyrics = require("./controllers/getTempLyrics")
 const getNotifications = require("./controllers/getNotifications")
 const addNotification = require("./controllers/addNotification")
 const deleteNotification = require("./controllers/deleteNotification")
+const getProgramme = require("./controllers/getProgramme")
 
 router.get("/", (req, res, next) => {
     res.send("Hello")
@@ -24,5 +25,6 @@ router.get("/get-temp-lyrics", getTempLyrics)
 router.get("/get-notifications", getNotifications)
 router.post("/add-notification", addNotification)
 router.post("/delete-notification", deleteNotification)
+router.get("/get-programme", getProgramme)
 
 module.exports = router

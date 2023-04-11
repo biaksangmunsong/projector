@@ -27,5 +27,12 @@ module.exports = async (io, socket) => {
         }
         catch {}
     })
+
+    socket.on("set-programme-index", i => {
+        try {
+            io.emit("set-programme-index", i)
+        }
+        catch {}
+    })
     
 }
