@@ -6,7 +6,7 @@ const io = require("socket.io")(server, {cors: {origin: "*"}})
 const routes = require("./routes/routes")
 const handleSocketConnection = require("./socket-handlers/handleConnection")
 
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 3000
 
 // apply middlewares
 app.use(express.json({limit: "50mb"}))
