@@ -19,12 +19,12 @@
             "value": "V Liankhankhual"
         },
         {
-            "key": "Contest",
+            "key": "Contest hun",
             "value": "Contest Department"
         },
         {
-            "key": "Houlimna pitu",
-            "value": "Programme & Evangelism Department"
+            "key": "Houlimna",
+            "value": "Pitu: Programme & Evangelism Department"
         },
         {
             "key": "Phatkhawmna",
@@ -34,5 +34,15 @@
             "key": "Hunkhakna",
             "value": "Toupa hon sinsak thumna"
         }
-    ]
+    ],
+    "houlimna": {
+        "title": "Houlimna Thupi",
+        "list": [
+            "Tuailai Biakna programme toh kisai",
+            "Thupi kisinsakna a zat dia hoih",
+            "Tuailai khalam nasepna toh kisai",
+            "Tuailai lapawl toh kisai",
+            "Mimal a i vei tuam omleh"
+        ]
+    }
 }

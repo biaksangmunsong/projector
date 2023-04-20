@@ -34,5 +34,12 @@ module.exports = async (io, socket) => {
         }
         catch {}
     })
+
+    socket.on("check-connection-status", () => {
+        try {
+            socket.broadcast.emit("check-connection-status")
+        }
+        catch {}
+    })
     
 }
